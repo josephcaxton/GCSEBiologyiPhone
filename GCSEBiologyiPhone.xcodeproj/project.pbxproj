@@ -1113,7 +1113,6 @@
 		7C0CCFA9171EE36B000995A6 /* AttributionIpad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CCFA5171EE36B000995A6 /* AttributionIpad.pdf */; };
 		7C0CCFAA171EE36B000995A6 /* copyrightlicense_agreement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CCFA6171EE36B000995A6 /* copyrightlicense_agreement.pdf */; };
 		7C0CCFBD171EE67E000995A6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CC71C171EDA49000995A6 /* MainWindow.xib */; };
-		7C5F18301726A9A60034C05D /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F182F1726A98C0034C05D /* iosBiology.sqlite */; };
 		7CDA277F171FF1E000B96792 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA277E171FF1E000B96792 /* FacebookSDK.framework */; };
 		7CDA27A6171FF84B00B96792 /* EQ_biology_160x78.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA27A4171FF84B00B96792 /* EQ_biology_160x78.png */; };
 		7CDA27A7171FF84B00B96792 /* EQ_biology_160x78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA27A5171FF84B00B96792 /* EQ_biology_160x78@2x.png */; };
@@ -1123,10 +1122,11 @@
 		7CDA27AF171FF94700B96792 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA27AD171FF94600B96792 /* Icon-72@2x.png */; };
 		7CDA27B2171FF96200B96792 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA27B0171FF96100B96792 /* Icon-Small-50.png */; };
 		7CDA27B3171FF96200B96792 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA27B1171FF96200B96792 /* Icon-Small-50@2x.png */; };
+		7CE3F2DA1729837300E00503 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3F2D91729835E00E00503 /* iosBiology.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C0CC68A171ED79D000995A6 /* GCSEBiologyiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCSEBiologyiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0CC68A171ED79D000995A6 /* GCSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0CC68D171ED79D000995A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7C0CC68F171ED79D000995A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7C0CC691171ED79E000995A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -2284,7 +2284,6 @@
 		7C0CCFA4171EE36B000995A6 /* Results.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Results.xml; sourceTree = "<group>"; };
 		7C0CCFA5171EE36B000995A6 /* AttributionIpad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AttributionIpad.pdf; sourceTree = "<group>"; };
 		7C0CCFA6171EE36B000995A6 /* copyrightlicense_agreement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = copyrightlicense_agreement.pdf; sourceTree = "<group>"; };
-		7C5F182F1726A98C0034C05D /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		7CDA277E171FF1E000B96792 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		7CDA2781171FF21500B96792 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
 		7CDA2782171FF21500B96792 /* FacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
@@ -2327,6 +2326,7 @@
 		7CDA27AD171FF94600B96792 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		7CDA27B0171FF96100B96792 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		7CDA27B1171FF96200B96792 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		7CE3F2D91729835E00E00503 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2380,7 +2380,7 @@
 		7C0CC68B171ED79D000995A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C0CC68A171ED79D000995A6 /* GCSEBiologyiPhone.app */,
+				7C0CC68A171ED79D000995A6 /* GCSE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3477,7 +3477,7 @@
 				7C0CCBC3171EE32E000995A6 /* 1001.pdf */,
 				7C0CCBC4171EE32E000995A6 /* 1003.pdf */,
 				7C0CCBC5171EE32E000995A6 /* 1005.pdf */,
-				7C5F182F1726A98C0034C05D /* iosBiology.sqlite */,
+				7CE3F2D91729835E00E00503 /* iosBiology.sqlite */,
 				7C0CCFA3171EE36B000995A6 /* DescriptiveAnswers.xml */,
 				7C0CCFA4171EE36B000995A6 /* Results.xml */,
 				7C0CCFA5171EE36B000995A6 /* AttributionIpad.pdf */,
@@ -3708,7 +3708,7 @@
 			);
 			name = GCSEBiologyiPhone;
 			productName = GCSEBiologyiPhone;
-			productReference = 7C0CC68A171ED79D000995A6 /* GCSEBiologyiPhone.app */;
+			productReference = 7C0CC68A171ED79D000995A6 /* GCSE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -3742,7 +3742,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5F18301726A9A60034C05D /* iosBiology.sqlite in Resources */,
+				7CE3F2DA1729837300E00503 /* iosBiology.sqlite in Resources */,
 				7C0CC698171ED79E000995A6 /* InfoPlist.strings in Resources */,
 				7C0CC6FB171ED9AE000995A6 /* btn_questions_deselected.png in Resources */,
 				7C0CC6FC171ED9AE000995A6 /* btn_results_deselected.png in Resources */,
@@ -4949,7 +4949,7 @@
 					"\"$(SRCROOT)/\"",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GCSE;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "48832425-EA26-4E8A-B62C-B7975ACB46E2";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -4972,7 +4972,7 @@
 					"\"$(SRCROOT)/\"",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GCSE;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};

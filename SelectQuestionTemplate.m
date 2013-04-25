@@ -144,7 +144,7 @@
              
 			 lk_QuestionTemplate *QT = (lk_QuestionTemplate *)[[fetchedResultsController fetchedObjects] objectAtIndex:val - 1];
 			 cell.textLabel.text = QT.Description;
-			 if ([QT.Description isEqualToString:@"Essay"]) {
+			 if ([QT.Description isEqualToString:@"Descriptive"]) {
 				  cell.detailTextLabel.text =@"(Do not count in overall marks)";
 			  }
 			 

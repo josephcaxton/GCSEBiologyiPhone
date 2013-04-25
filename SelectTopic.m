@@ -336,7 +336,7 @@
 			
 			
 		}
-		else if ([str isEqualToString:@"Essay"])
+		else if ([str isEqualToString:@"Descriptive"])
 		{
 			DescriptiveType *D_view = [[DescriptiveType alloc] initWithNibName:nil bundle:nil];
 			

@@ -193,7 +193,7 @@
 		[M_view release];
 		
 	}
-	else if([TemplateType isEqualToString:@"Essay"]){
+	else if([TemplateType isEqualToString:@"Descriptive"]){
 		
 		DescriptiveType *D_view =[[DescriptiveType alloc] initWithNibName:nil bundle:nil];
 		
