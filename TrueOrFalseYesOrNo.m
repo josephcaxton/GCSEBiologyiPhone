@@ -326,7 +326,7 @@ static UIWebView *QuestionHeaderBox = nil;
 	}
 	else if (QItem_View && ShowAnswer){
 		
-		count = [AnswerControls count] + 1 ;// I am adding one more row here to add Continue button
+		count = [AnswerControls count] + 2 ;// I am adding one more row here to add Continue button
 	}
 	
 	else {
@@ -449,7 +449,7 @@ static UIWebView *QuestionHeaderBox = nil;
             { 
                 //ThereIsAnswerReason = 1;
                 
-                NSMutableString *FormatedString = [[NSMutableString alloc]initWithString:@"<p><font size =\"1\" color =\"#FFFFFF\"  face =\"times new roman \"> "];
+                NSMutableString *FormatedString = [[NSMutableString alloc]initWithString:@"<p><font size =\"1\"  face =\"times new roman \"> "];
                 [FormatedString appendFormat:@"<br/>"];
                 [FormatedString appendFormat:@"<br/>"];
                 [FormatedString appendFormat:@"<br/>"];
@@ -532,9 +532,18 @@ static UIWebView *QuestionHeaderBox = nil;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-     
+    // increase the size of the answer cell
+    if(indexPath.row == 3){
+        
+        return 65.0;
+    }
     
-	return 45;
+    else{
+        
+        
+        return 44;
+    }
+
 }
 
 
