@@ -24,12 +24,12 @@
 
 }
 
-@property (nonatomic, retain) NSArray *ProductFromIstore;
-@property (nonatomic, retain) NSMutableArray *ProductsToIstore;
-@property (nonatomic, retain) NSArray *ProductsToIStoreInArray;
-@property (nonatomic, retain) NSArray *SortedDisplayProducts;
-@property (nonatomic, retain) CustomStoreObserver *observer;
-@property (nonatomic, retain) UIButton *Restore;
+@property (nonatomic, strong) NSArray *ProductFromIstore;
+@property (nonatomic, strong) NSMutableArray *ProductsToIstore;
+@property (nonatomic, strong) NSArray *ProductsToIStoreInArray;
+@property (nonatomic, strong) NSArray *SortedDisplayProducts;
+@property (nonatomic, strong) CustomStoreObserver *observer;
+@property (nonatomic, strong) UIButton *Restore;
 
 - (void)AddProgress;
 - (BOOL)isDataSourceAvailable;

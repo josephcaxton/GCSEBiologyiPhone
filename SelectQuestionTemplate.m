@@ -28,7 +28,6 @@
 		
 		UIBarButtonItem *Back = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(Back:)];
 		self.navigationItem.leftBarButtonItem = Back;
-		[Back release];
 	}
 	
 	
@@ -50,7 +49,6 @@
 		
 		[DataError show];
 		
-		[DataError release];
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		
 		
@@ -114,7 +112,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
      
 	if (UserConfigure) {
@@ -206,10 +204,6 @@
 		aFetchedResultsController.delegate = self;
 		self.fetchedResultsController = aFetchedResultsController;
 		
-		[aFetchedResultsController release];
-		[fetchRequest release];
-		[sortDescriptor release];
-		[sortDescriptors release];
 	}
 	
 	return fetchedResultsController;
@@ -262,7 +256,6 @@
 	//[self.navigationController popToViewController:[[self.navigationController viewControllers] objectAtIndex:0] animated:YES];
 	
 	[self.navigationController pushViewController:S_view animated:YES];
-	[S_view release];  
 	
 	
 	}
@@ -285,12 +278,6 @@
 }
 
 
-- (void)dealloc {
-	//[fetchedResultsController release];
-	[managedObjectContext release];
-	//[SelectedTemplate release];
-    [super dealloc];
-}
 
 
 @end

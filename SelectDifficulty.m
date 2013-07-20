@@ -42,7 +42,6 @@
 		UIBarButtonItem *Back = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(Back:)];
 		self.navigationItem.leftBarButtonItem = Back;
 		self.navigationItem.title = @"Difficulty";
-		[Back release];
 	}
 	
 
@@ -97,7 +96,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
 	EvaluatorAppDelegate *appDelegate = (EvaluatorAppDelegate *)[UIApplication sharedApplication].delegate;
@@ -272,11 +271,6 @@
 }
 
 
-- (void)dealloc {
-	[QItem_ForEdit release];
-    [super dealloc];
-	
-}
 
 
 @end

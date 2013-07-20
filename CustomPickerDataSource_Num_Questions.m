@@ -29,7 +29,7 @@
 		
 		if([AccessLevel intValue] == 1){
 			
-			for (int i = 1; i < 30 + 1; i++) {
+			for (int i = 1; i < 50 + 1; i++) {
 				
 				[customPickerArray  addObject: [NSString stringWithFormat:@"%i", i ]];
 			}
@@ -37,7 +37,7 @@
 		
 		else if ([AccessLevel intValue] == 2){
 			
-			for (int i = 1; i < 250 + 1; i++) {
+			for (int i = 1; i < 50 + 1; i++) {
 				
 				[customPickerArray  addObject: [NSString stringWithFormat:@"%i", i ]];
 			}
@@ -139,7 +139,7 @@
 		
 	}
 	
-	return [label autorelease];
+	return label;
 	
 	
 }
@@ -163,11 +163,6 @@
 	
 }
 
-- (void)dealloc
-{
-	[customPickerArray release];
-	[super dealloc];
-}
 
 
 @end
