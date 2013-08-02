@@ -192,7 +192,7 @@ int dontShowPriceList = 0;
 			
 		}*/
 		
-		if ([AccessLevel intValue] == 5){
+		if ([AccessLevel intValue] > 2){
 			
 			UIAlertView *Alert = [[UIAlertView alloc] initWithTitle: @"You already have all our products" 
 															message: @"Press the Questions button to start" delegate: self 
@@ -371,18 +371,18 @@ int dontShowPriceList = 0;
 			switch (myTag) {
 				case 1:
                 {
-					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.250"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment1];
+					SKPayment *payment4 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.1000"];
+					[[SKPaymentQueue defaultQueue] addPayment:payment4];
 					break;
                 }
 					
 				case 2:
                 {
-					SKPayment *payment2 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.500"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment2];
+					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
+                    [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
 					break;
                 }
-				case 3:
+				/*case 3:
                 {
 					SKPayment *payment3 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.750"];
 					[[SKPaymentQueue defaultQueue] addPayment:payment3];
@@ -400,7 +400,7 @@ int dontShowPriceList = 0;
 					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
                     [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
 					break;
-                }
+                }*/
 					
 			}
 			
@@ -410,19 +410,19 @@ int dontShowPriceList = 0;
 			switch (myTag) {
 				case 1:
                 {
-					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.250To500"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment1];
+					SKPayment *payment3 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.250To1000"];
+					[[SKPaymentQueue defaultQueue] addPayment:payment3];
 					
 					break;
+
                 }
 				case 2:
                 {
-					SKPayment *payment2 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.250To750"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment2];
-					
+					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
+                    [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
 					break;
                 }
-				case 3:
+				/*case 3:
                 {
 					SKPayment *payment3 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorForiPhone.Biology.250To1000"];
 					[[SKPaymentQueue defaultQueue] addPayment:payment3];
@@ -435,11 +435,11 @@ int dontShowPriceList = 0;
                     [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
 					break;
 					
-                }
+                }*/
 					
 			}
 			
-		case 3: 
+		/*case 3:
 			
 			switch (myTag) {
 				case 1:
@@ -479,7 +479,7 @@ int dontShowPriceList = 0;
 					break;
                 }
 					
-			}
+			}*/
 			
 		
 			
