@@ -29,6 +29,14 @@ static UIWebView *QuestionHeaderBox = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //To fix ios7 extending edges
+    if([UIViewController instancesRespondToSelector:@selector(edgesForExtendedLayout)]){
+        
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
+    
+    
+
    // self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	
 	if (!QuestionHeaderBox) {
@@ -40,7 +48,7 @@ static UIWebView *QuestionHeaderBox = nil;
 	self.FileListTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 160, SCREEN_WIDTH, SCREEN_HEIGHT - 170) style:UITableViewStyleGrouped];
 	FileListTable.delegate = self;
 	FileListTable.dataSource = self;
-	FileListTable.separatorStyle = UITableViewCellSeparatorStyleSingleLineEtched;
+	//FileListTable.separatorStyle = UITableViewCellSeparatorStyleSingleLineEtched;
     
     
     [self.FileListTable setBackgroundView:nil];
@@ -534,7 +542,7 @@ static UIWebView *QuestionHeaderBox = nil;
                     NSString *ContinueImageLocation = [[NSBundle mainBundle] pathForResource:@"btn_continue" ofType:@"png"];
                     UIImage *ContinueImage = [[UIImage alloc] initWithContentsOfFile:ContinueImageLocation];
                     
-                    Continue = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+                    Continue = [UIButton buttonWithType:UIButtonTypeCustom];
                     [Continue setImage:ContinueImage forState:UIControlStateNormal];
 					
 
