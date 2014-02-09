@@ -1071,7 +1071,6 @@
 		7C0CCFBD171EE67E000995A6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CC71C171EDA49000995A6 /* MainWindow.xib */; };
 		7C66273C1826DD0700743225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C66273B1826DD0700743225 /* Images.xcassets */; };
 		7C7A315A17A12AAD0075AB42 /* 898.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A315917A12AAD0075AB42 /* 898.pdf */; };
-		7CA25EE3182D1AA700193A4C /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7CA25EE2182D1A8C00193A4C /* iosBiology.sqlite */; };
 		7CB603CF17998B7800F2E746 /* PlotConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB60354179988A000F2E746 /* PlotConstants.m */; };
 		7CB603D017998B7800F2E746 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB6034F1799887F00F2E746 /* MBProgressHUD.m */; };
 		7CB603D117998B7800F2E746 /* TransparentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB603CA17998A8E00F2E746 /* TransparentToolBar.m */; };
@@ -1079,6 +1078,8 @@
 		7CB603D317998B7900F2E746 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB603CE17998ABE00F2E746 /* SelectNumberofQuestionsViewController.m */; };
 		7CB603D417998B9E00F2E746 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB60352179988A000F2E746 /* libCorePlot-CocoaTouch.a */; };
 		7CDA277F171FF1E000B96792 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA277E171FF1E000B96792 /* FacebookSDK.framework */; };
+		CD81ED5118A7893900FC551E /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CD81ED5018A788F100FC551E /* iosBiology.sqlite */; };
+		CD81ED5418A78AB100FC551E /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2199,7 +2200,6 @@
 		7C66273B1826DD0700743225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GCSEBiologyiPhone/Images.xcassets; sourceTree = "<group>"; };
 		7C66273D1826DD5800743225 /* GCSE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GCSE.entitlements; path = GCSEBiologyiPhone/GCSE.entitlements; sourceTree = "<group>"; };
 		7C7A315917A12AAD0075AB42 /* 898.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 898.pdf; sourceTree = "<group>"; };
-		7CA25EE2182D1A8C00193A4C /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		7CB6034E1799887F00F2E746 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7CB6034F1799887F00F2E746 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7CB60352179988A000F2E746 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
@@ -2322,6 +2322,9 @@
 		7CDA279F171FF21500B96792 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
 		7CDA27A0171FF21500B96792 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
 		7CDA27A1171FF21500B96792 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CD81ED5018A788F100FC551E /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
+		CD81ED5218A78AB100FC551E /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
+		CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsToChoose.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2462,6 +2465,8 @@
 				7C0CC6E6171ED8F2000995A6 /* FillTheBlanks.m */,
 				7C0CC6E7171ED8F2000995A6 /* FillTheBlanks1.h */,
 				7C0CC6E8171ED8F2000995A6 /* FillTheBlanks1.m */,
+				CD81ED5218A78AB100FC551E /* NumberOfQuestionsToChoose.h */,
+				CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */,
 			);
 			name = "Template Views";
 			sourceTree = "<group>";
@@ -3479,7 +3484,7 @@
 				7C0CCBC3171EE32E000995A6 /* 1001.pdf */,
 				7C0CCBC4171EE32E000995A6 /* 1003.pdf */,
 				7C0CCBC5171EE32E000995A6 /* 1005.pdf */,
-				7CA25EE2182D1A8C00193A4C /* iosBiology.sqlite */,
+				CD81ED5018A788F100FC551E /* iosBiology.sqlite */,
 				7C0CCFA3171EE36B000995A6 /* DescriptiveAnswers.xml */,
 				7C0CCFA4171EE36B000995A6 /* Results.xml */,
 				7C0CCFA5171EE36B000995A6 /* AttributionIpad.pdf */,
@@ -3803,7 +3808,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA25EE3182D1AA700193A4C /* iosBiology.sqlite in Resources */,
+				CD81ED5118A7893900FC551E /* iosBiology.sqlite in Resources */,
 				7C0CC698171ED79E000995A6 /* InfoPlist.strings in Resources */,
 				7C0CC7AC171EDB5F000995A6 /* Cough.aiff in Resources */,
 				7C0CC7AD171EDB5F000995A6 /* Clapping.aiff in Resources */,
@@ -4863,6 +4868,7 @@
 				7C0CC7DE171EDBF8000995A6 /* HelpVideo.m in Sources */,
 				7C0CC7DF171EDBF8000995A6 /* Attribution.m in Sources */,
 				7C0CC7E0171EDBF8000995A6 /* Buy.m in Sources */,
+				CD81ED5418A78AB100FC551E /* NumberOfQuestionsToChoose.m in Sources */,
 				7C0CC7E1171EDBF8000995A6 /* CustomStoreObserver.m in Sources */,
 				7C0CC7E2171EDBF8000995A6 /* LearnersCloudSamplesVideos.m in Sources */,
 				7C0CC7E3171EDBF8000995A6 /* VideoPlayer.m in Sources */,
@@ -4967,8 +4973,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/\"",
-					"\"$(SRCROOT)\"",
+					"\\\"$(SRCROOT)/\\\"",
+					"$(SRCROOT)",
+					/Users/edit/Documents/Apps/GCSEBiologyiPhone,
 				);
 				OTHER_LDFLAGS = (
 					"-lsqlite3.0",
@@ -5001,8 +5008,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/\"",
-					"\"$(SRCROOT)\"",
+					"\\\"$(SRCROOT)/\\\"",
+					"$(SRCROOT)",
+					/Users/edit/Documents/Apps/GCSEBiologyiPhone,
 				);
 				OTHER_LDFLAGS = (
 					"-lsqlite3.0",
