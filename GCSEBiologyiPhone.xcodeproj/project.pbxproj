@@ -1077,9 +1077,9 @@
 		7CB603D317998B7900F2E746 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB603CE17998ABE00F2E746 /* SelectNumberofQuestionsViewController.m */; };
 		7CB603D417998B9E00F2E746 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB60352179988A000F2E746 /* libCorePlot-CocoaTouch.a */; };
 		7CDA277F171FF1E000B96792 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA277E171FF1E000B96792 /* FacebookSDK.framework */; };
-		CD81ED5118A7893900FC551E /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CD81ED5018A788F100FC551E /* iosBiology.sqlite */; };
 		CD81ED5418A78AB100FC551E /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */; };
 		CDD485E818F02B08004FBF90 /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CDD485E718F02B08004FBF90 /* 11.pdf */; };
+		CDD485F018F0330D004FBF90 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CDD485EF18F032F1004FBF90 /* iosBiology.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2321,10 +2321,10 @@
 		7CDA279F171FF21500B96792 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
 		7CDA27A0171FF21500B96792 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
 		7CDA27A1171FF21500B96792 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		CD81ED5018A788F100FC551E /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		CD81ED5218A78AB100FC551E /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
 		CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsToChoose.m; sourceTree = "<group>"; };
 		CDD485E718F02B08004FBF90 /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
+		CDD485EF18F032F1004FBF90 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3484,7 +3484,7 @@
 				7C0CCBC3171EE32E000995A6 /* 1001.pdf */,
 				7C0CCBC4171EE32E000995A6 /* 1003.pdf */,
 				7C0CCBC5171EE32E000995A6 /* 1005.pdf */,
-				CD81ED5018A788F100FC551E /* iosBiology.sqlite */,
+				CDD485EF18F032F1004FBF90 /* iosBiology.sqlite */,
 				7C0CCFA3171EE36B000995A6 /* DescriptiveAnswers.xml */,
 				7C0CCFA4171EE36B000995A6 /* Results.xml */,
 				7C0CCFA5171EE36B000995A6 /* AttributionIpad.pdf */,
@@ -3808,7 +3808,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD81ED5118A7893900FC551E /* iosBiology.sqlite in Resources */,
+				CDD485F018F0330D004FBF90 /* iosBiology.sqlite in Resources */,
 				7C0CC698171ED79E000995A6 /* InfoPlist.strings in Resources */,
 				7C0CC7AC171EDB5F000995A6 /* Cough.aiff in Resources */,
 				7C0CC7AD171EDB5F000995A6 /* Clapping.aiff in Resources */,
@@ -4961,8 +4961,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = GCSEBiologyiPhone/GCSE.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../FacebookSDK\"",
@@ -4983,7 +4983,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "76B2C768-6F36-4868-9E1B-B324A0800BB4";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "76B2C768-6F36-4868-9E1B-B324A0800BB4";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -4997,8 +4997,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = GCSEBiologyiPhone/GCSE.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../FacebookSDK\"",
@@ -5019,7 +5019,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "938A3C19-70D6-4190-9544-1CB235F55180";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "938A3C19-70D6-4190-9544-1CB235F55180";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
