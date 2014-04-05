@@ -1077,7 +1077,7 @@
 		7CB603D317998B7900F2E746 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB603CE17998ABE00F2E746 /* SelectNumberofQuestionsViewController.m */; };
 		7CB603D417998B9E00F2E746 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB60352179988A000F2E746 /* libCorePlot-CocoaTouch.a */; };
 		7CDA277F171FF1E000B96792 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA277E171FF1E000B96792 /* FacebookSDK.framework */; };
-		CD61516518F00A6B0062397A /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD61516418F00A6B0062397A /* 11.pdf */; };
+		CD2F5F9918F027A8009CD573 /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD2F5F9818F027A8009CD573 /* 11.pdf */; };
 		CD81ED5118A7893900FC551E /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CD81ED5018A788F100FC551E /* iosBiology.sqlite */; };
 		CD81ED5418A78AB100FC551E /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */; };
 /* End PBXBuildFile section */
@@ -2321,7 +2321,7 @@
 		7CDA279F171FF21500B96792 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
 		7CDA27A0171FF21500B96792 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
 		7CDA27A1171FF21500B96792 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		CD61516418F00A6B0062397A /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
+		CD2F5F9818F027A8009CD573 /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
 		CD81ED5018A788F100FC551E /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		CD81ED5218A78AB100FC551E /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
 		CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsToChoose.m; sourceTree = "<group>"; };
@@ -2502,7 +2502,7 @@
 				7C0CC7ED171EE328000995A6 /* 7.pdf */,
 				7C0CC7EE171EE328000995A6 /* 8.pdf */,
 				7C0CC7EF171EE328000995A6 /* 9.pdf */,
-				CD61516418F00A6B0062397A /* 11.pdf */,
+				CD2F5F9818F027A8009CD573 /* 11.pdf */,
 				7C0CC7F1171EE328000995A6 /* 12.pdf */,
 				7C0CC7F2171EE328000995A6 /* 13.pdf */,
 				7C0CC7F3171EE328000995A6 /* 14.pdf */,
@@ -3773,7 +3773,7 @@
 		7C0CC682171ED79D000995A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = LearnersCloud;
 				TargetAttributes = {
 					7C0CC689171ED79D000995A6 = {
@@ -4572,7 +4572,7 @@
 				7C0CCEB6171EE32F000995A6 /* 767.pdf in Resources */,
 				7C0CCEB7171EE32F000995A6 /* 768.pdf in Resources */,
 				7C0CCEB8171EE32F000995A6 /* 769.pdf in Resources */,
-				CD61516518F00A6B0062397A /* 11.pdf in Resources */,
+				CD2F5F9918F027A8009CD573 /* 11.pdf in Resources */,
 				7C0CCEB9171EE32F000995A6 /* 770.pdf in Resources */,
 				7C0CCEBA171EE32F000995A6 /* 771.pdf in Resources */,
 				7C0CCEBB171EE32F000995A6 /* 772.pdf in Resources */,
@@ -4919,7 +4919,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "48832425-EA26-4E8A-B62C-B7975ACB46E2";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4F90A871-26FC-45C7-82FA-03D57B51F669";
 				SDKROOT = iphoneos;
@@ -4977,6 +4977,7 @@
 					"$(SRCROOT)",
 					/Users/edit/Documents/Apps/GCSEBiologyiPhone,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lsqlite3.0",
 					"-ObjC",
@@ -5012,6 +5013,7 @@
 					"$(SRCROOT)",
 					/Users/edit/Documents/Apps/GCSEBiologyiPhone,
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-lsqlite3.0",
 					"-ObjC",
