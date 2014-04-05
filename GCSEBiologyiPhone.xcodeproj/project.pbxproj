@@ -1079,7 +1079,7 @@
 		7CDA277F171FF1E000B96792 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA277E171FF1E000B96792 /* FacebookSDK.framework */; };
 		CD81ED5118A7893900FC551E /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CD81ED5018A788F100FC551E /* iosBiology.sqlite */; };
 		CD81ED5418A78AB100FC551E /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */; };
-		CDD485E818F02B08004FBF90 /* 11_.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CDD485E718F02B08004FBF90 /* 11_.pdf */; };
+		CDD485E818F02B08004FBF90 /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CDD485E718F02B08004FBF90 /* 11.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -2324,7 +2324,7 @@
 		CD81ED5018A788F100FC551E /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		CD81ED5218A78AB100FC551E /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
 		CD81ED5318A78AB100FC551E /* NumberOfQuestionsToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsToChoose.m; sourceTree = "<group>"; };
-		CDD485E718F02B08004FBF90 /* 11_.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11_.pdf; sourceTree = "<group>"; };
+		CDD485E718F02B08004FBF90 /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2502,7 +2502,7 @@
 				7C0CC7ED171EE328000995A6 /* 7.pdf */,
 				7C0CC7EE171EE328000995A6 /* 8.pdf */,
 				7C0CC7EF171EE328000995A6 /* 9.pdf */,
-				CDD485E718F02B08004FBF90 /* 11_.pdf */,
+				CDD485E718F02B08004FBF90 /* 11.pdf */,
 				7C0CC7F1171EE328000995A6 /* 12.pdf */,
 				7C0CC7F2171EE328000995A6 /* 13.pdf */,
 				7C0CC7F3171EE328000995A6 /* 14.pdf */,
@@ -4084,7 +4084,7 @@
 				7C0CCCCE171EE32E000995A6 /* 276.pdf in Resources */,
 				7C0CCCCF171EE32E000995A6 /* 277.pdf in Resources */,
 				7C0CCCD0171EE32E000995A6 /* 278.pdf in Resources */,
-				CDD485E818F02B08004FBF90 /* 11_.pdf in Resources */,
+				CDD485E818F02B08004FBF90 /* 11.pdf in Resources */,
 				7C0CCCD1171EE32E000995A6 /* 279.pdf in Resources */,
 				7C0CCCD2171EE32E000995A6 /* 280.pdf in Resources */,
 				7C0CCCD3171EE32E000995A6 /* 281.pdf in Resources */,
