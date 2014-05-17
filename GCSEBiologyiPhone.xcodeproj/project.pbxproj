@@ -4961,8 +4961,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = GCSEBiologyiPhone/GCSE.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../FacebookSDK\"",
@@ -4984,7 +4984,7 @@
 				);
 				PRODUCT_NAME = GCSE;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "76B2C768-6F36-4868-9E1B-B324A0800BB4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F8B42CEF-1A40-44FA-902C-138BEF0CF707";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -4997,8 +4997,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = GCSEBiologyiPhone/GCSE.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../FacebookSDK\"",
@@ -5019,8 +5019,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "938A3C19-70D6-4190-9544-1CB235F55180";
+				PROVISIONING_PROFILE = "6A2424AA-24F4-4A31-86F5-CC5D0EC73CAC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6A2424AA-24F4-4A31-86F5-CC5D0EC73CAC";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
